@@ -1,5 +1,5 @@
 .Collapsible {
-  transition: height 0.3s ease-in-out;
+  transition: height 0.5s ease-in-out;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 20px;
@@ -9,8 +9,10 @@
 
   &.open {
     display: block;
- 
+    
+
   }
+  
 
 }
 
@@ -44,12 +46,13 @@ background-color: white;
 
 position: absolute; /* Permet de positionner la flèche de façon absolue */
 right: 30px;
-transition: transform 0.4s ease;
+transition: transform 0.5s ease;
+}
+.rotate{
+  transform: rotate(180deg); // Fait pivoter la flèche de 180 degrés pour pointer vers le bas
+}
 
-&.onclick {
-  transform: rotate(-180deg);
-}
-}
+
 
 /////////////////////////////////////////////////////////////////
 /// 
@@ -57,8 +60,6 @@ transition: transform 0.4s ease;
   .trigger-container {
     padding: 10px 200px 10px 10px; /* Augmenter le padding pour élargir le conteneur */
    
-
-  
   }
 
   }

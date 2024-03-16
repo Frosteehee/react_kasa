@@ -3,24 +3,29 @@
   line-height: 1.5;
   font-weight: 400;
   margin:0;
+  padding:0;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
+
+
+
 
 a {
   font-weight: 500;
 }
 
-body {
+body, html {
   margin: 0;
-  //display: flex;/////////////////:modification pour la page 404
- // place-items: center;//////////////:test pour la page 404
   min-width: 320px;
- // overflow-x: hidden;
+  padding:0;
+  
+
 }
 
 h1 {

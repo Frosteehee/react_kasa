@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .Collapsible {
-  transition: height 0.3s ease-in-out;
+  transition: height 0.5s ease-in-out;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 20px;
@@ -8,6 +8,7 @@
   font-size: 24px;
   font-family: Montserrat;
 }
+
 .Collapsible.open {
   display: block;
 }
@@ -37,19 +38,23 @@ p {
 }
 
 .arrowCollapsedAbout {
-  position: absolute; /* Permet de positionner la flèche de façon absolue */
+  position: absolute;
+  /* Permet de positionner la flèche de façon absolue */
   right: 30px;
-  transition: transform 0.4s ease;
+  transition: transform 0.5s ease;
 }
-.arrowCollapsedAbout.onclick {
-  transform: rotate(-180deg);
+
+.rotate {
+  transform: rotate(180deg);
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .trigger-container {
-    padding: 10px 200px 10px 10px; /* Augmenter le padding pour élargir le conteneur */
+    padding: 10px 200px 10px 10px;
+    /* Augmenter le padding pour élargir le conteneur */
   }
 }
+
 @media screen and (max-width: 768px) {
   .trigger-container {
     padding: 10px 100px 10px 10px;
@@ -69,4 +74,4 @@ p {
     line-height: 19px;
     letter-spacing: 0em;
   }
-}/*# sourceMappingURL=Collapse.css.map */
+}

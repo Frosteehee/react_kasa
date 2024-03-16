@@ -7,6 +7,7 @@
     //padding-right: 20px;
     //height: 100%;
     margin:25px;
+    margin-bottom: 4%;
    
   }
   h2{
@@ -127,6 +128,10 @@ color:#FF6060 ;
   ///////////////////////////////////////////////////////////////////////////
   /// 
   @media screen and (min-width: 768px) and (max-width: 1024px){
+    .rental-page {
+  
+      margin-bottom: 22%;
+    }
     .loc-content-down ul {
       display: flex;
       flex-direction: column;

@@ -8,9 +8,9 @@
    font-weight: 400;
    line-height: 26px;
    letter-spacing: 0em;
-   //background-color:#F6F6F673; //pas au bon endroit
    list-style-type: none;
    color: black;
+   
   } 
 
 /* Style du libellé du trigger */
@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 400px 10px 10px; /* Augmenter le padding pour élargir le conteneur */
+  padding: 10px 600px 10px 10px; /* Augmenter le padding pour élargir le conteneur */
   font-weight: 700;
   font-size: 18px;
   font-family: Montserrat;
@@ -27,23 +27,21 @@
   cursor: pointer; /* Ajout d'un curseur pointer pour indiquer l'interactivité */
   position: relative; /* Permet de positionner la flèche par rapport à ce conteneur */
 
-
+}
 
 /* Style de la flèche */
 .arrowCollapsed  {
  transition: transform 0.4s ease;
   position: absolute; 
   right: 10px; 
-    &.onclick {
-      transform: rotate(-180deg);
-     }
 }
-}
+
+
 /* Conteneur principal */
 .collapsedRental {
   display: flex;
 margin-right: 250px;;
-background-color:#F6F6F673;
+//background-color:#F6F6F673;
 }
 
 

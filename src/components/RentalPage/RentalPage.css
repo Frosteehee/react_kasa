@@ -1,6 +1,7 @@
 /* RentalPages.scss */
 .rental-page {
   margin: 25px;
+  margin-bottom: 4%;
 }
 
 h2 {
@@ -88,6 +89,7 @@ h3 {
 .loc-content-down {
   margin-left: 20px;
 }
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .loc-content-down {
     margin-left: 45px;
@@ -111,22 +113,70 @@ h3 {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .rental-page {
+    margin-bottom: 22%;
+  }
   .loc-content-down ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
+  h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .container-tags span {
+    padding: 5px 5px;
+    font-size: 0.6rem;
+  }
 }
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .location {
+    margin-left: 0;
+    margin-right: 0;
+  }
   .loc-container-up-down {
     display: flex;
     flex-direction: column;
     margin-left: 0;
     margin-right: 0;
   }
-  .loc-container-up-down ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  .loc-container-up-down .loc-content-up {
+    width: 100%;
   }
-}/*# sourceMappingURL=RentalPage.css.map */
+  .loc-container-up-down h2 {
+    font-size: 18px;
+    line-height: normal;
+  }
+  .loc-container-up-down h3 {
+    font-size: 14px;
+  }
+  .loc-container-up-down .host {
+    width: 80%;
+  }
+  .loc-container-up-down .host img {
+    width: 32px;
+    height: 32px;
+  }
+  .loc-container-up-down .host .host_name {
+    font-size: 12px;
+    width: 40%;
+    margin-left: 70px;
+  }
+  .loc-container-up-down .hostRating {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .loc-container-up-down .rating {
+    font-size: 12px;
+    margin-left: 20px;
+    width: 30%;
+  }
+  .loc-container-up-down .container-tags span {
+    padding: 5px 5px;
+    font-size: 0.6rem;
+  }
+}

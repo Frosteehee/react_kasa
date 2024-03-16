@@ -1,20 +1,17 @@
-{/*  page d'accueil du site */}
+// Home.js
+import React from 'react';
+import Banner from '../../components/Banner/Banner'; // Import du composant Banner
+import './Home.scss';
 import Cards from '../../components/Cards/Cards';
-import BannerHome from '../../components/Banner/BannerHome';
-const Home = () => {
-    return (
-        <div>
-            <BannerHome />
-          
+import imgHome from '../../assets/images/bannerHome.png'; // Import de l'image pour la bannière Home
 
-            <Cards />
-        </div>
-    )
+function Home() {
+  return (
+    <div>
+      <Banner type="home" imgHome={imgHome} /> {/* Utilisation du composant Banner avec l'image Home */}
+      <Cards />
+    </div>
+  );
 }
 
 export default Home;
-
-
-
-
-
