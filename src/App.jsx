@@ -8,6 +8,7 @@ import Rental from './pages/Rental/Rental';
 import Error from './pages/Error/Error';
 
 function App () {
+  const basename = import.meta.env.MODE === "production" ? "/react_kasa" : "";
   return (
     <BrowserRouter>
       <Navbar />
