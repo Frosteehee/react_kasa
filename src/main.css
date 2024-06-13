@@ -37,12 +37,9 @@ h1 {
     margin-bottom: 20px;
   }
 }
-
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   /* Styles pour les tablettes */
   h1 {
     font-size: 2.5em;
   }
-}
-
-/* Retrait du Dark Light Mode, je ne sais pas comment ça s'est retrouvé ici, erreur remarqué lors de modifications sur le portfolio */
+}/*# sourceMappingURL=main.css.map */

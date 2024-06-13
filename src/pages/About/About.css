@@ -1,13 +1,11 @@
 :root {
   height: 100vh;
 }
-
 @media screen and (max-width: 768px) {
   :root {
     height: 100%;
   }
 }
-
 @media screen and (min-with: 768px) and (max-width: 1024px) {
   :root {
     height: 100%;
@@ -17,4 +15,4 @@
 main {
   height: 100%;
   margin-bottom: 10%;
-}
+}/*# sourceMappingURL=About.css.map */

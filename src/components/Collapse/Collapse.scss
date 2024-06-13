@@ -56,9 +56,9 @@ transition: transform 0.5s ease;
 
 /////////////////////////////////////////////////////////////////
 /// 
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (min-width: 769px) and (max-width: 1280px){
   .trigger-container {
-    padding: 10px 200px 10px 10px; /* Augmenter le padding pour élargir le conteneur */
+    padding: 10px 100px 10px 10px; /* Augmenter le padding pour élargir le conteneur */
    
   }
 

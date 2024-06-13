@@ -10,7 +10,6 @@ footer {
   width: 100%;
   bottom: 0;
 }
-
 footer p {
   font-size: 24px;
   font-family: Montserrat;
@@ -39,7 +38,6 @@ footer p {
     height: 46px;
   }
 }
-
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   footer {
     bottom: 0;
@@ -67,4 +65,4 @@ footer p {
     letter-spacing: 0em;
     text-align: center;
   }
-}
+}/*# sourceMappingURL=Footer.css.map */
